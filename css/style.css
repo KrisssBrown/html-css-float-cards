@@ -1,0 +1,62 @@
+/* font-family: 'Fredoka One', cursive; */
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+
+
+
+
+
+.title .title-style{
+font-family: 'Fredoka One', cursive;
+text-align: center;
+margin-bottom: 15px;
+}
+
+
+.img{
+    height: 80px;
+}
+
+.parag{
+    text-align: center;
+    font-style: normal;
+}
+
+
+/* .cards{
+    float: left;
+    display: inline-block;
+} */
+
+
+.card-img{
+    background-color: black;
+    /* float: left; */
+}
+
+    
+
+.card-desc{
+    display: inline-block;
+    color: rgb(246, 37, 37);
+}
+
+.name,
+.job,
+.mail{
+    margin-bottom: 5px;
+}
