@@ -10,9 +10,10 @@
 
 
 .container{
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 35px;
+    clear: both;
 }
 
 
@@ -24,6 +25,7 @@
 font-family: 'Fredoka One', cursive;
 text-align: center;
 margin-bottom: 15px;
+color: #cc3273;
 }
 
 
@@ -39,32 +41,55 @@ margin-bottom: 15px;
 
 
 .cards{
-    clear: both;
-    padding-top: 40px;
-    /* height: 80px; */
-    /* width: calc(100%/3); */
-
+    padding: 40px;
 }
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+    
+
 
 
 .card-info{
     background-color: black;
     height: 80px;
-    width: 240px;
+    width: 270px;
     font-size: 12px;
     float: left;
+    margin: 15px;
+    box-shadow: 10px 10px 10px 5px gray;
 }
+/* .card-info:nth-of-type(3n+3){
+    clear: right;
+} */
 
     
 
 .card-desc{
     display: inline-block;
-    color: rgb(246, 37, 37);
+    padding: 10px;
 }
 
 .name,
 .job,
 .mail{
-padding: 5px;
-color: red;
+margin-bottom: 5px;
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.mail{
+    color: cornflowerblue;
+}
+
+.name{
+font-family: 'Fredoka One', cursive;
+}
+
+
+
+    
