@@ -28,7 +28,8 @@ margin-bottom: 15px;
 
 
 .img{
-    height: 80px;
+    height: 100%;
+    float:left;
 }
 
 .parag{
@@ -37,15 +38,21 @@ margin-bottom: 15px;
 }
 
 
-/* .cards{
-    float: left;
-    display: inline-block;
-} */
+.cards{
+    clear: both;
+    padding-top: 40px;
+    /* height: 80px; */
+    /* width: calc(100%/3); */
+
+}
 
 
-.card-img{
+.card-info{
     background-color: black;
-    /* float: left; */
+    height: 80px;
+    width: 240px;
+    font-size: 12px;
+    float: left;
 }
 
     
@@ -58,5 +65,6 @@ margin-bottom: 15px;
 .name,
 .job,
 .mail{
-    margin-bottom: 5px;
+padding: 5px;
+color: red;
 }
